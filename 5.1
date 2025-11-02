@@ -1,0 +1,4 @@
+a = list(map(int, input("Введите первый список чисел через пробел: ").split()))
+b = list(map(int, input("Введите второй список чисел через пробел: ").split()))
+c = [a[i] + b[i] for i in range(len(a))]
+print("Результат:", c)

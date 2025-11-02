@@ -1,0 +1,8 @@
+n = input("Введите четырёхзначное число: ")
+if len(n) == 4 and n.isdigit():
+    i = iter(n)
+    for digit in i:
+        print(digit)
+
+else:
+    print("Ошибка: нужно ввести четырёхзначное положительное число.")
